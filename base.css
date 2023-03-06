@@ -1,0 +1,28 @@
+:root {
+    --white-color: #fff;
+    --text-color :#333;
+    --gray-color: #939399;
+    --key-word :rgb(70, 68, 68);
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; 
+    /* căn giữa */
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    /* xuống dòng khi bị đẩy suống */
+
+    /* margin-left: 5px; */
+    margin: 45px 0 0 0;
+}
+
+/* {   =>>> thẻ p */
+/* => fz:1.4rem */
+
+/* line-height: 25px; */
+/* } */
+/* box-shadow: 1px 1px 1px rgb(0 0 0 / 50%); */
